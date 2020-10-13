@@ -1,4 +1,4 @@
-# hellow-wagi: AssemblyScript example of WAGI
+# hello-wagi-as: AssemblyScript example of WAGI
 
 _WAGI is the easiest way to get started doing cloud-side WASM web apps._
 
