@@ -1,0 +1,25 @@
+{
+  "name": "hello-wagi",
+  "version": "1.0.0",
+  "description": "An example of WebAssembly Gateway Interface (WASI)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests",
+    "asbuild:untouched": "asc assembly/index.ts --target debug",
+    "asbuild:optimized": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
+  },
+  "keywords": [
+    "webassembly",
+    "wasi"
+  ],
+  "author": "Matt Butcher",
+  "license": "MIT",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.15.2"
+  },
+  "devDependencies": {
+    "as-wasi": "^0.2.1",
+    "assemblyscript": "^0.15.2"
+  }
+}
