@@ -13,7 +13,7 @@ import { Console, Environ, CommandLine } from "as-wasi";
 // section of the response MUST be a header. And in the header, it MUST contain either
 // 'content-type' or 'location'. If neither of those is present, it will cause a
 // 500 Internal Server Error.
-Console.log("content-type: text-plain");
+Console.log("content-type: text/plain");
 Console.log(""); // A blank line separates headers from body.
 
 // This sends a message to the server's log.
